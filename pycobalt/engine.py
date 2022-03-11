@@ -16,6 +16,8 @@ import pycobalt.utils as utils
 import pycobalt.callbacks as callbacks
 import pycobalt.serialization as serialization
 
+sys.stdin.reconfigure(encoding="latin-1")
+
 _in_pipe = None
 _out_pipe = None
 
